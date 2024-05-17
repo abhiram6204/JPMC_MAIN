@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style2.css">
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div>
+        <a href="./index.html"><img src="./images/logo.jfif" width="100px" style="display: inline-block;"></a>
+    <h1 style="margin-left: 25%;display: inline-block;">WELCOME TO THE E-COMMERCE APP</h1>
+    </div>
+    <header>
+        <a href="index.html" style="text-decoration: none;">Home</a>
+        <a href="products.html" style="text-decoration: none;">Products</a>
+        <a href="about.html" style="text-decoration: none;">About US</a>
+        <a href="cart.html"><img src="./images/cart.jpg" alt="cart"width=100px></a>
+    </header>
+    <div>
+        <script>getData()</script>
+        <h2 style="text-align: center;">YOUR CART</h2>
+        <table style="table-layout: fixed;">
+            <thead>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>PRICE</th>
+                <th>DELETE</th>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+    <div id="totalPrice" style="text-align: center; margin-top: 10px;"></div>
+
+</body>
+</html>

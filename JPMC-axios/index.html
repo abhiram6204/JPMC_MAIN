@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./axios1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body onload="getData(event)">
+    <h1 style="text-align: center;">WELCOME TO INVENTORY OPERATION PAGE</h1>
+    <div id="form">
+        <form action="">
+            <input type="text" placeholder="ID" id="id">
+            <input type="text" placeholder="NAME" id="name">
+            <input type="text" placeholder="quantity" id="quantity">
+            <input type="text" placeholder="price" id="price">
+            <button type="submit" onclick="addData(event)">Add Item</button>
+        </form>
+    </div>
+    <h2 style="text-align: center;">Details Of student</h2>
+    <table style="table-layout: fixed;">
+        <thead>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>BRANCH</th>
+            <th>EMAIL</th>
+            <th>Actions</th>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+</body>
+</html>
+<td>
+    

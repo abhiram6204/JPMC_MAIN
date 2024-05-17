@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "abhiram",
+      "branch": "CS",
+      "email": "abhiram@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Bharath",
+      "branch": "CIVIL",
+      "email": "bharath@gmail.com"
+    },
+    {
+      "id": "41",
+      "name": "SAIKUMAR",
+      "branch": "CSE_CS",
+      "email": "kurva@gmail.com"
+    }
+  ]
+}
